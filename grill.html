@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220731125830">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230821173853">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,13 +17,13 @@
 		<header data-scroll="121" data-scroll-show class="header">
 			<div class="header__container header__container_wide">
 				<div class="header__column header__column_logo">
-					<a href="home.html" class="header__logo">Gerícht</a>
+					<a href="index.html" class="header__logo">Gerícht</a>
 				</div>
 				<div class="header__column header__column_menu">
 					<div class="header__menu menu">
 						<nav class="menu__body">
 							<ul class="menu__list">
-								<li class="menu__item"><a href="home.html" class="menu__link">Home</a></li>
+								<li class="menu__item"><a href="index.html" class="menu__link">Home</a></li>
 								<li class="menu__item"><a href="chefs.html" class="menu__link">Pages</a></li>
 								<li class="menu__item"><a href="contact.html" class="menu__link">Contact Us</a></li>
 								<li class="menu__item"><a href="blogs.html" class="menu__link">Blog</a></li>
@@ -48,30 +48,24 @@
 						<h2 class="block-header__title">Our Blogs</h2>
 					</div>
 					<nav class="block-main__pages">
-						<a href="home.html" class="block-main__page">Home</a>
+						<a href="index.html" class="block-main__page">Home</a>
 						<a href="blogs.html" class="block-main__page">Our Blogs</a>
 						<a href="grill.html" class="block-main__page">Tips for Prepping and Caring for your grill</a>
 					</nav>
 				</div>
-				<picture>
-					<source srcset="img/main-block-bg.webp" type="image/webp"><img class="block-main__image" src="img/main-block-bg.jpg" alt="main background">
-				</picture>
+				<picture><source srcset="img/main-block-bg.webp" type="image/webp"><img class="block-main__image" src="img/main-block-bg.jpg" alt="main background"></picture>
 			</section>
 			<div class="main__body">
 				<div class="content-blog">
 					<div class="content-blog__container">
 						<div class="content-blog__head">
-							<div class="content-blog__info info-updates">
-								<div class="info-updates__text">16 Apr 2021</div>
-								<div class="info-updates__text">- Annalisa L</div>
+							<div class="content-blog__info">
+								<time datatime="2021-05-16">16 Apr 2021</time>
+								<p>- Annalisa L</p>
 							</div>
 							<h2 class="content-blog__title">tips for prepping and caring for your grill</h2>
 						</div>
-						<div class="content-blog__image-ibg">
-							<picture>
-								<source srcset="img/blog/grill.webp" type="image/webp"><img src="img/blog/grill.jpg" alt="grill">
-							</picture>
-						</div>
+						<div class="content-blog__image-ibg"><picture><source data-srcset="img/blog/grill.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/blog/grill.jpg" alt="grill"></picture></div>
 					</div>
 				</div>
 				<div class="main-blog">
@@ -84,7 +78,7 @@
 									<p class="block-blog__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt pharetra ut lobortis id. Commodo sit libero lacus a egestas penatibus pretium quis lorem. Purus morbi sagittis, faucibus odio.</p>
 									<ul class="block-blog__list">
 										<li class="block-blog__item">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-										<li class="block-blog__item"> Tincidunt pharetra ut lobortis id.</li>
+										<li class="block-blog__item">Tincidunt pharetra ut lobortis id.</li>
 										<li class="block-blog__item">Commodo sit libero lacus a egestas penatibus pretium quis lorem. </li>
 									</ul>
 								</div>
@@ -93,9 +87,9 @@
 								<video data-src="files/restaurant.mp4" class="blog-video__video"></video>
 							</div>
 							<p class="main-blog__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt pharetra ut lobortis id. Commodo sit libero lacus a egestas penatibus pretium quis lorem. Purus morbi sagittis, faucibus odio. Elementum felis nibh at purus consectetur phasellus lacus, pellentesque dictumst. Pellentesque eu malesuada id vitae risus, libero. Ullamcorper turpis blandit faucibus turpis. Eu elit faucibus leo eget.</p>
-							<div class="quote _icon-quote">
+							<blockquote class="quote _icon-quote">
 								<p class="quote__text">There is no love sincerer than the love of food.</p>
-							</div>
+							</blockquote>
 							<div class="main-blog__block block-blog">
 								<div class="block-blog__body">
 									<div class="block-blog__column">
@@ -107,11 +101,7 @@
 											<li class="block-blog__item">Commodo sit libero lacus a egestas penatibus.</li>
 										</ul>
 									</div>
-									<div class="block-blog__image">
-										<picture>
-											<source srcset="img/blog/meal.webp" type="image/webp"><img src="img/blog/meal.jpg" alt="meal">
-										</picture>
-									</div>
+									<div class="block-blog__image"><picture><source data-srcset="img/blog/meal.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/blog/meal.jpg" alt="meal"></picture></div>
 								</div>
 							</div>
 							<p class="main-blog__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt pharetra ut lobortis id. Commodo sit libero lacus a egestas penatibus pretium quis lorem. Purus morbi sagittis, faucibus odio.</p>
@@ -131,7 +121,7 @@
 							<div class="sidebar-main__item">
 								<h4 class="sidebar-main__title">Search Page</h4>
 								<form action="#" class="sidebar-main__form form-sidebar">
-									<input autocomplete="off" type="text" name="form[]" placeholder="Example" class="form-sidebar__search">
+									<input autocomplete="off" type="text" name="example" placeholder="Example" class="form-sidebar__search">
 									<button type="button" class="form-sidebar__button _icon-search"></button>
 								</form>
 							</div>
@@ -146,18 +136,14 @@
 							<div data-decor class="sidebar-main__item">
 								<h4 class="sidebar-main__title">Our Latest Posts</h4>
 								<article class="item-updates">
-									<a href="grill.html" class="item-updates__image-ibg">
-										<picture>
-											<source data-srcset="img/blog/cocktails.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="img/blog/cocktails.jpg" alt="cocktails">
-										</picture>
-									</a>
+									<a href="grill.html" class="item-updates__image-ibg"><picture><source data-srcset="img/blog/grill.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/blog/grill.jpg" alt="grill"></picture></a>
 									<div class="item-updates__content">
-										<div class="item-updates__info info-updates">
-											<div class="info-updates__text">23 May 2021</div>
-											<div class="info-updates__text">-John Micheal</div>
+										<div class="item-updates__info">
+											<time datatime="2021-04-16">16 Apr 2021</time>
+											<p>- Annalisa L</p>
 										</div>
-										<h3 class="item-updates__title"><a href="grill.html">summer cocktails and mocktails</a></h3>
-										<div class="info-updates__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</div>
+										<h3 class="item-updates__title"><a href="grill.html">tips for prepping and caring for your grill</a></h3>
+										<p class="item-updates__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
 										<a href="grill.html" class="item-updates__link">Read More</a>
 									</div>
 								</article>
@@ -180,9 +166,9 @@
 							<div class="sidebar-main__item">
 								<h4 class="sidebar-main__title">Share</h4>
 								<div class="sidebar-main__socials">
-									<a href="https://www.facebook.com/" target="_blank" class="main-footer__item _icon-facebook"></a>
-									<a href="https://twitter.com/" target="_blank" class="main-footer__item _icon-twitter"></a>
-									<a href="https://www.instagram.com/gagarinn_foodhub/" target="_blank" class="main-footer__item _icon-instagram"></a>
+									<a href="#" class="main-footer__item _icon-facebook"></a>
+									<a href="#" class="main-footer__item _icon-twitter"></a>
+									<a href="#" class="main-footer__item _icon-instagram"></a>
 								</div>
 							</div>
 						</aside>
@@ -193,11 +179,7 @@
 						<p class="comments__info">Comment(3)</p>
 						<div class="comments__items">
 							<div class="comments__item item-comments">
-								<div class="item-comments__image">
-									<picture>
-										<source srcset="img/blog/comments/image_1.webp" type="image/webp"><img src="img/blog/comments/image_1.jpg" alt="person">
-									</picture>
-								</div>
+								<div class="item-comments__image"><picture><source srcset="img/blog/comments/image_1.webp" type="image/webp"><img src="img/blog/comments/image_1.jpg" alt="person"></picture></div>
 								<div class="item-comments__content">
 									<div class="item-comments__head">
 										<div class="item-comments__name">Nora Martin</div>
@@ -208,11 +190,7 @@
 								</div>
 							</div>
 							<div class="comments__item item-comments">
-								<div class="item-comments__image">
-									<picture>
-										<source srcset="img/blog/comments/image_2.webp" type="image/webp"><img src="img/blog/comments/image_2.jpg" alt="person">
-									</picture>
-								</div>
+								<div class="item-comments__image"><picture><source srcset="img/blog/comments/image_2.webp" type="image/webp"><img src="img/blog/comments/image_2.jpg" alt="person"></picture></div>
 								<div class="item-comments__content">
 									<div class="item-comments__head">
 										<div class="item-comments__name">Lara Williams</div>
@@ -223,11 +201,7 @@
 								</div>
 							</div>
 							<div class="comments__item item-comments">
-								<div class="item-comments__image">
-									<picture>
-										<source srcset="img/blog/comments/image_3.webp" type="image/webp"><img src="img/blog/comments/image_3.jpg" alt="person">
-									</picture>
-								</div>
+								<div class="item-comments__image"><picture><source srcset="img/blog/comments/image_3.webp" type="image/webp"><img src="img/blog/comments/image_3.jpg" alt="person"></picture></div>
 								<div class="item-comments__content">
 									<div class="item-comments__head">
 										<div class="item-comments__name">Jane Cooper</div>
@@ -291,11 +265,11 @@
 						</div>
 						<div class="footer__main main-footer">
 							<h3 class="main-footer__title">Gerícht</h3>
-							<div class="main-footer__text">"The best way to find yourself is to lose yourself in the service of others.”</div>
+							<q class="main-footer__text">"The best way to find yourself is to lose yourself in the service of others.”</q>
 							<div class="main-footer__socials">
-								<a href="https://www.facebook.com/" target="_blank" class="main-footer__item _icon-facebook"></a>
-								<a href="https://twitter.com/" target="_blank" class="main-footer__item _icon-twitter"></a>
-								<a href="https://www.instagram.com/gagarinn_foodhub/" target="_blank" class="main-footer__item _icon-instagram"></a>
+								<a href="#" class="main-footer__item _icon-facebook"></a>
+								<a href="#" class="main-footer__item _icon-twitter"></a>
+								<a href="#" class="main-footer__item _icon-instagram"></a>
 							</div>
 						</div>
 						<div class="footer__contacts contacts-footer">
@@ -328,5 +302,5 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20220731125830"></script>
+	<script src="js/app.min.js?_v=20230821173853"></script>
 </body>

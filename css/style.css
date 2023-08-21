@@ -2437,7 +2437,7 @@ body.popup-show::after {
 }
 .book__body {
   position: relative;
-  background: #0C0C0C;
+  background: #0c0c0c;
   border: 1px solid rgba(220, 202, 135, 0.2);
   box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
   padding: 0px 2rem;
@@ -3065,6 +3065,7 @@ body.popup-show::after {
   line-height: 130%;
   letter-spacing: 0.04em;
   text-transform: capitalize;
+  font-style: normal;
 }
 @media (min-width: 83.125em) {
   .believe__name {
@@ -3243,6 +3244,7 @@ body.popup-show::after {
   font-style: italic;
 }
 .item-testimony__name {
+  font-style: normal;
   color: #DCCA87;
   line-height: 130%;
   letter-spacing: 0.04em;
@@ -3264,7 +3266,7 @@ body.popup-show::after {
   }
 }
 .item-testimony__profession {
-  color: #F5EFDB;
+  color: #f5efdb;
   line-height: 175%;
   letter-spacing: 0.04em;
 }
@@ -3581,6 +3583,13 @@ body.popup-show::after {
   height: 100%;
   gap: 2rem;
 }
+.item-updates__info {
+  display: flex;
+  justify-content: space-between;
+  color: #fafafa;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+}
 .item-updates__text {
   flex: 1 1 auto;
 }
@@ -3628,11 +3637,6 @@ body.popup-show::after {
   }
 }
 
-.info-updates {
-  display: flex;
-  justify-content: space-between;
-  color: #FAFAFA;
-}
 .gallery {
   position: relative;
 }
@@ -5672,6 +5676,13 @@ body.popup-show::after {
   }
 }
 
+.content-blog__info {
+  display: flex;
+  justify-content: space-between;
+  color: #fafafa;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+}
 .content-blog__title {
   color: #DCCA87;
   font-weight: 600;
@@ -5900,7 +5911,7 @@ body.popup-show::after {
   gap: 1rem;
 }
 .footer-blog__tag {
-  color: #C4C4C4;
+  color: #c4c4c4;
   letter-spacing: 0.04em;
   line-height: 175%;
 }

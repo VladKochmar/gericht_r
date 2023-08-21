@@ -11857,8 +11857,9 @@
           "video" !== s.dataset.watch ||
             s.classList.contains("_init") ||
             (t.isIntersecting
-              ? s.querySelector("video").play()
-              : s.querySelector("video").pause());
+              ? (s.querySelector("video").play(), s.classList.add("_active"))
+              : (s.querySelector("video").pause(),
+                s.classList.remove("_active")));
         });
         const e = document.querySelector(".video-module");
         e.addEventListener("click", function (t) {
